@@ -33,5 +33,8 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }
+
+  // Automatically render Medium posts if container exists
+  renderMediumPosts();
 });
 

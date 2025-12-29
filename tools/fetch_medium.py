@@ -15,7 +15,7 @@ def excerpt_from_content(entry, length=200):
     return (txt[:length] + '…') if len(txt) > length else txt
 
 def main(output_path):
-    username = os.getenv('vjmourya', 'vjmourya').strip()
+    username = os.getenv('MEDIUM_USERNAME', 'vjmourya').strip()
     max_posts = int(os.getenv('MAX_POSTS', '6'))
     feed_url = f'https://medium.com/feed/@{username}'
     d = feedparser.parse(feed_url)

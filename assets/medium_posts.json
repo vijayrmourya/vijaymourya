@@ -2,6 +2,12 @@
   "source": "https://medium.com/@vjmourya",
   "posts": [
     {
+      "title": "Mastering boto3 Authentication in AWS: Sessions, Clients, and Cross-Account Access (and a Sprinkle…",
+      "link": "https://medium.com/@vjmourya/mastering-boto3-authentication-in-aws-sessions-clients-and-cross-account-access-and-a-sprinkle-29046f3e6a93?source=rss-c49948e7594d------2",
+      "date": "2025-11-15T13:43:51",
+      "excerpt": "<h3>Saving Cost with boto3 Authentication in AWS: Sessions, Clients, and Cross-Account Access (and a Sprinkle of Latency Drama)</h3><h3>The Curious Case of boto3 Authentication</h3><p>If you’ve ever w…"
+    },
+    {
       "title": "How I Stopped Getting “AI Summaries” That Read Like Batman Explaining His Feelings",
       "link": "https://medium.com/@vjmourya/how-i-stopped-getting-ai-summaries-that-read-like-batman-explaining-his-feelings-51183a937222?source=rss-c49948e7594d------2",
       "date": "2025-10-13T14:12:55",
@@ -30,12 +36,6 @@
       "link": "https://medium.com/@vjmourya/what-is-a-jwt-how-oidc-providers-like-gitlab-github-generate-tokens-for-pipelines-cf3cbae9fabf?source=rss-c49948e7594d------2",
       "date": "2025-09-06T12:52:56",
       "excerpt": "<p>Have you ever copied one of those ridiculously long strings that start with eyJhbGciOi... and wondered:</p><p><em>“What is this thing, and why does AWS or GitLab care so much about it?”</em></p><p>…"
-    },
-    {
-      "title": "OIDC Under the Hood: How Pipelines Really Authenticate to AWS (GitLab Example)",
-      "link": "https://medium.com/@vjmourya/oidc-under-the-hood-how-pipelines-really-authenticate-to-aws-gitlab-example-891bac8a80b3?source=rss-c49948e7594d------2",
-      "date": "2025-09-05T08:40:35",
-      "excerpt": "<p>At first, it almost feels like magic — your pipeline runs, an OIDC token appears, and somehow AWS turns it into usable credentials.</p><p>Have you noticed that all the big CI/CD platforms (GitLab, …"
     }
   ]
 }
