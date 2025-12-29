@@ -22,3 +22,16 @@ function renderMediumPosts(targetId='medium-posts') {
       container.innerHTML = '<div class="small">Unable to load Medium posts automatically. You can add them manually.</div>';
     });
 }
+
+// Mobile navigation handler
+document.addEventListener('DOMContentLoaded', function() {
+  const mobileNav = document.getElementById('mobile-nav');
+  if (mobileNav) {
+    mobileNav.addEventListener('change', function() {
+      if (this.value) {
+        window.location.href = this.value;
+      }
+    });
+  }
+});
+
