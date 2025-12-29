@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Contact — Vijay Mourya</title><link rel="stylesheet" href="styles.css"></head>
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Contact — Vijay Mourya</title><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="styles.css"></head>
 <body>
   <div class="container">
-    <header class="header"><div class="brand"><div class="logo">VM</div><div><div class="title">Vijay Mourya</div><div class="small">Get in touch</div></div></div>
+    <header class="header"><div class="brand"><img src="assets/profile.svg" alt="VM" class="logo" style="width:56px;height:56px;border-radius:12px;"><div><div class="title">Vijay Mourya</div><div class="small">Get in touch</div></div></div>
       <nav class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
         <a href="projects.html">Projects</a>
         <a href="certifications.html">Certifications</a>
         <a href="study.html">Study</a>
@@ -16,7 +15,6 @@
       <div class="mobile-menu"><select id="mobile-nav">
         <option value="index.html">Home</option>
         <option value="about.html">About</option>
-        <option value="services.html">Services</option>
         <option value="projects.html">Projects</option>
         <option value="certifications.html">Certifications</option>
         <option value="study.html">Study</option>
@@ -25,22 +23,73 @@
     </header>
 
     <main>
-      <section class="card">
-        <h1>Contact</h1>
-        <p class="small">Email: <strong>vijayrmourya@gmail.com</strong><br>Phone: <strong>+91-9511705294</strong></p>
+      <section class="card hero-card">
+        <h1>Get in Touch</h1>
+        <p class="small">Open to consulting opportunities, collaborations, and full-time DevOps/SRE roles. Feel free to reach out via any channel below.</p>
 
         <div class="section">
-          <h2>Work inquiries</h2>
-          <p class="small">For consulting, collaboration or roles, please email or message on LinkedIn. If you want a contact form, GitHub Pages is static — use a service like Formspree or Netlify Forms. Example Formspree action: <code>https://formspree.io/f/your-id</code>.</p>
+          <h2>📧 Direct Contact</h2>
+          <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))">
+            <div class="card">
+              <strong>Email</strong>
+              <div class="small" style="margin-top:8px">
+                <a href="mailto:vijayrmourya@gmail.com">vijayrmourya@gmail.com</a>
+              </div>
+            </div>
+            <div class="card">
+              <strong>Phone</strong>
+              <div class="small" style="margin-top:8px">
+                <a href="tel:+919511705294">+91-9511705294</a>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="section">
-          <h2>Social</h2>
-          <p class="small"><a href="https://github.com/vijayrmourya" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/vijay-mourya-3b409b146" target="_blank">LinkedIn</a></p>
+          <h2>🌐 Professional Networks</h2>
+          <div class="grid">
+            <a href="https://github.com/vijayrmourya" target="_blank" rel="noopener" class="card">
+              <strong>GitHub</strong>
+              <div class="small">Open source projects, infrastructure code, automation scripts</div>
+            </a>
+            <a href="https://www.linkedin.com/in/vijay-mourya-3b409b146" target="_blank" rel="noopener" class="card">
+              <strong>LinkedIn</strong>
+              <div class="small">Professional network, recommendations, career history</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>💼 Work Inquiries</h2>
+          <div class="card">
+            <p class="small">
+              <strong>Available for:</strong><br>
+              • DevOps/SRE consulting engagements<br>
+              • Cloud architecture reviews & migrations<br>
+              • Infrastructure automation projects<br>
+              • Full-time senior engineering roles<br><br>
+
+              <strong>Response time:</strong> I typically respond within 24-48 hours. For urgent matters, please mention "URGENT" in your subject line.
+            </p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>📄 Quick Links</h2>
+          <div class="row">
+            <a class="cta" href="resume.pdf" target="_blank">Download Resume</a>
+            <a class="cta" href="about.html">View Experience</a>
+            <a class="cta" href="projects.html">See Projects</a>
+          </div>
         </div>
       </section>
 
-      <footer class="footer"><div class="small">Prefer privacy? Use the GitHub repo issues or email for sensitive info.</div></footer>
+      <footer class="footer">
+        <div class="small">
+          Based in Pune, India • Available for remote work worldwide<br>
+          Prefer email for detailed inquiries • GitHub repo for public questions
+        </div>
+      </footer>
     </main>
   </div>
   <script src="scripts.js"></script>
