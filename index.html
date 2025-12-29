@@ -8,11 +8,24 @@
     <meta name="keywords" content="DevOps, AWS, Kubernetes, Terraform, Cloud Engineer, GCP, Infrastructure, SRE, GitLab CI/CD">
     <meta name="author" content="Vijay Mourya">
 
+    <!-- SEO & Crawling -->
+    <link rel="canonical" href="https://vijayrmourya.github.io">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- TODO: Update location if needed -->
+    <meta name="geo.region" content="IN-MH">
+    <meta name="geo.placename" content="Pune">
+
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Vijay Mourya - DevOps & Infrastructure Engineer">
     <meta property="og:description" content="AWS Certified | Kubernetes, Serverless, Terraform specialist | Senior DevOps Engineer">
     <meta property="og:url" content="https://vijayrmourya.github.io">
+    <meta property="og:image" content="https://vijayrmourya.github.io/assets/DP/ProfilePicture.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- TODO: Create a proper OG image (1200x630px) for better social sharing -->
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
@@ -22,13 +35,46 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
+    <!-- Structured Data for SEO -->
+    <!-- TODO: Update with your actual information -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Vijay Mourya",
+      "jobTitle": "Senior DevOps & Infrastructure Reliability Engineer",
+      "url": "https://vijayrmourya.github.io",
+      "sameAs": [
+        "https://www.linkedin.com/in/vijay-mourya-3b409b146",
+        "https://github.com/vijayrmourya"
+      ],
+      "knowsAbout": ["AWS", "Kubernetes", "Terraform", "DevOps", "GCP", "Serverless", "GitLab CI/CD", "Infrastructure as Code"],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Computer Science & Engineering"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Roche"
+      },
+      "email": "vijayrmourya@gmail.com",
+      "telephone": "+91-9511705294",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="container">
     <header class="header">
         <div class="brand">
-            <img src="assets/profile.svg" alt="VM" class="logo" style="width:56px;height:56px;border-radius:12px;">
+            <img src="assets/DP/ProfilePicture.png" alt="VM" class="logo" style="width:56px;height:56px;border-radius:12px;">
             <div>
                 <div class="title">Vijay Mourya</div>
                 <div class="small">Senior DevOps & Infrastructure Reliability Engineer</div>
@@ -37,7 +83,8 @@
 
         <nav class="nav" aria-label="Main navigation">
             <a href="index.html" class="active">Home</a>
-            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="experience.html">Experience</a>
             <a href="projects.html">Projects</a>
             <a href="certifications.html">Certifications</a>
             <a href="study.html">Study</a>
@@ -47,7 +94,8 @@
         <div class="mobile-menu">
             <select id="mobile-nav">
                 <option selected value="index.html">Home</option>
-                <option value="about.html">About</option>
+                <option value="services.html">Services</option>
+                <option value="experience.html">Experience</option>
                 <option value="projects.html">Projects</option>
                 <option value="certifications.html">Certifications</option>
                 <option value="study.html">Study</option>
@@ -57,205 +105,401 @@
     </header>
 
     <main>
+        <!-- ============================================ -->
+        <!-- UNDER CONSTRUCTION NOTICE -->
+        <!-- ============================================ -->
+        <div class="card" style="background: linear-gradient(135deg, rgba(251, 191, 36, 0.15), rgba(245, 158, 11, 0.1)); border-left: 4px solid #f59e0b; padding: 20px; margin-bottom: 24px;">
+            <div style="display: flex; align-items: start; gap: 16px;">
+                <div style="font-size: 2rem; flex-shrink: 0;">🚧</div>
+                <div>
+                    <h3 style="margin: 0 0 8px 0; color: #d97706;">Profile Under Construction</h3>
+                    <p class="small" style="margin: 0; line-height: 1.6;">
+                        <strong>Heads up!</strong> Some information here was added by AI without my consent LOL 😅
+                        I'm using AI to design this profile, but I'll be completing and verifying the accuracy soon.
+                        Meanwhile, please reach out to me directly via email at
+                        <a href="mailto:vijayrmourya@gmail.com" style="color: #2563eb; text-decoration: underline;">vijayrmourya@gmail.com</a>
+                        or connect on
+                        <a href="https://www.linkedin.com/in/vijay-mourya-3b409b146" target="_blank" rel="noopener" style="color: #2563eb; text-decoration: underline;">LinkedIn</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
         <section class="hero-card hero">
             <div>
-                <h1>AWS Certified | Kubernetes, Serverless, Terraform, Linux & GCP Proficient |
-                    Aspiring Solutions Architect</h1>
+                <h1>Building Reliable Cloud Infrastructure at Scale</h1>
+                <p class="subtitle">AWS Certified DevOps Engineer specializing in Kubernetes, Terraform, and Serverless Architecture</p>
                 <p class="small">
-                    I’ve designed and maintained cloud platforms across AWS and GCP, automated patching and deployment
-                    workflows, and helped teams move faster with cleaner, more reliable infrastructure. I enjoy breaking
-                    down complex systems, rebuilding them with Terraform, Helm, and Kubernetes, and turning them into
-                    predictable, well-instrumented platforms that are easy for teams to use.
+                    I transform complex cloud systems into automated, scalable platforms. With 5+ years architecting
+                    solutions across AWS and GCP, I help engineering teams ship faster with infrastructure that's 
+                    predictable, observable, and cost-effective.
                 </p>
+                
+                <!-- TODO: Update this description with your unique value proposition -->
+                
+                <!-- TODO: Update this description with your unique value proposition -->
 
-                <div class="row">
-                    <a class="cta" href="about.html">Experience & Services</a>
-                    <a class="cta" href="projects.html">View Projects</a>
-                    <a class="cta" href="contact.html">Contact</a>
+                <div class="row cta-group">
+                    <a class="cta cta-primary" href="contact.html">📧 Let's Talk</a>
+                    <a class="cta cta-secondary" href="projects.html">View Work</a>
+                    <a class="cta-link" href="experience.html">Read More →</a>
                 </div>
 
-                <!-- Companies + Skills section — replace your previous "Quick facts" block with this -->
-                <div class="section" style="margin-top:14px">
-                    <h2>Quick facts</h2>
+                <div class="scroll-indicator" style="text-align:center; margin-top:32px;">
+                    <a href="#impact" class="small" style="color: var(--muted);">
+                        ↓ Scroll to explore
+                    </a>
+                </div>
+            </div>
+        </section>
 
-                    <!-- Companies grid -->
-                    <div class="grid companies-grid" style="gap:12px; margin-top:10px;">
-                        <div class="card company-card" style="padding:14px">
-                            <div class="kv">Roche</div>
-                            <div class="small" style="margin-top:6px">
-                                <strong>Senior DevOps Engineer • Service Owner</strong><br>
-                                Jul 2023 – Present — Led multi-cloud GitLab CI/CD runner platform (EKS/GKE), built
-                                event-driven AWS patch automation, and implemented hardened image pipelines with Packer
-                                & Ansible. :contentReference[oaicite:0]{index=0}
+        <!-- ============================================ -->
+        <!-- IMPACT METRICS SECTION -->
+        <!-- TODO: Add your real metrics and achievements -->
+        <!-- ============================================ -->
+        <section id="impact" class="section" style="margin-top:32px;">
+            <h2>Impact & Scale</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                <div class="card metric-card">
+                    <div class="metric-value">99.9%</div>
+                    <div class="small">Platform Uptime</div>
+                    <!-- TODO: Update with your actual SLA/uptime metrics -->
+                </div>
+                <div class="card metric-card">
+                    <div class="metric-value">50+</div>
+                    <div class="small">Microservices Deployed</div>
+                    <!-- TODO: Update with number of services/systems you manage -->
+                </div>
+                <div class="card metric-card">
+                    <div class="metric-value">40%</div>
+                    <div class="small">Infrastructure Cost Reduction</div>
+                    <!-- TODO: Update with your cost optimization achievements -->
+                </div>
+                <div class="card metric-card">
+                    <div class="metric-value">Multi-Cloud</div>
+                    <div class="small">AWS & GCP Production</div>
+                    <!-- TODO: Customize based on your cloud experience -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- WHAT I DO BEST SECTION -->
+        <!-- TODO: Customize services based on your strengths -->
+        <!-- ============================================ -->
+        <section class="section">
+            <h2>What I Do Best</h2>
+            <div class="grid">
+                <div class="card">
+                    <span style="font-size:2rem">🏗️</span>
+                    <h3>Infrastructure as Code</h3>
+                    <p class="small">Terraform, Helm, and GitOps patterns for reproducible infrastructure</p>
+                </div>
+                <div class="card">
+                    <span style="font-size:2rem">⚡</span>
+                    <h3>CI/CD Automation</h3>
+                    <p class="small">GitLab, Jenkins pipelines with security scanning and automated testing</p>
+                </div>
+                <div class="card">
+                    <span style="font-size:2rem">☁️</span>
+                    <h3>Cloud Architecture</h3>
+                    <p class="small">Multi-cloud solutions on AWS/GCP with cost optimization</p>
+                </div>
+                <div class="card">
+                    <span style="font-size:2rem">📐</span>
+                    <h3>Service Design & Documentation</h3>
+                    <p class="small">Architecture design documents and comprehensive technical documentation</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- ACHIEVEMENTS & HIGHLIGHTS -->
+        <!-- ============================================ -->
+        <section class="section">
+            <h2>Recent Achievements & Highlights</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:16px;">
+
+                <div class="card" style="padding:20px; background: linear-gradient(135deg, rgba(96,165,250,0.08), rgba(79,209,197,0.05));">
+                    <div style="font-size:2rem; margin-bottom:12px;">🎤</div>
+                    <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Live Service Presentation</h3>
+                    <p class="small">
+                        Conducted live presentation and demonstration of service release to 500+ internal team members at Roche
+                    </p>
+                </div>
+
+                <div class="card" style="padding:20px; background: linear-gradient(135deg, rgba(96,165,250,0.08), rgba(79,209,197,0.05));">
+                    <div style="font-size:2rem; margin-bottom:12px;">🌐</div>
+                    <h3 style="margin:0 0 8px 0; font-size:1.1rem;">KubeCon + CloudNativeCon 2024</h3>
+                    <p class="small">
+                        Attended KubeCon + CloudNativeCon India 2024, Hyderabad - staying current with cloud-native technologies
+                    </p>
+                </div>
+
+                <div class="card" style="padding:20px; background: linear-gradient(135deg, rgba(96,165,250,0.08), rgba(79,209,197,0.05));">
+                    <div style="font-size:2rem; margin-bottom:12px;">☁️</div>
+                    <h3 style="margin:0 0 8px 0; font-size:1.1rem;">AWS re:Invent 2024</h3>
+                    <p class="small">
+                        Attended AWS re:Invent 2024, Las Vegas - learning latest AWS innovations and best practices
+                    </p>
+                </div>
+
+                <div class="card" style="padding:20px; background: linear-gradient(135deg, rgba(96,165,250,0.08), rgba(79,209,197,0.05));">
+                    <div style="font-size:2rem; margin-bottom:12px;">🏆</div>
+                    <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Internal Recognition</h3>
+                    <p class="small">
+                        Multiple internal recognitions for outstanding contributions and technical excellence
+                    </p>
+                </div>
+
+                <div class="card" style="padding:20px; background: linear-gradient(135deg, rgba(96,165,250,0.08), rgba(79,209,197,0.05));">
+                    <div style="font-size:2rem; margin-bottom:12px;">📐</div>
+                    <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Service Design Expert</h3>
+                    <p class="small">
+                        Specialized in service architecture design and comprehensive design document drafting
+                    </p>
+                </div>
+
+                <div class="card" style="padding:20px; background: linear-gradient(135deg, rgba(96,165,250,0.08), rgba(79,209,197,0.05));">
+                    <div style="font-size:2rem; margin-bottom:12px;">📚</div>
+                    <h3 style="margin:0 0 8px 0; font-size:1.1rem;">Documentation Excellence</h3>
+                    <p class="small">
+                        Extensive experience creating detailed service documentation and technical runbooks
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- CURRENT FOCUS / LEARNING SECTION -->
+        <!-- ============================================ -->
+        <section class="section">
+            <div class="card" style="background: linear-gradient(135deg, rgba(96,165,250,0.1), rgba(79,209,197,0.05)); border: 1px solid rgba(96,165,250,0.2);">
+                <h3>🎯 Currently Exploring</h3>
+                <p class="small">
+                    ArgoCD for GitOps, eBPF for observability, and Platform Engineering patterns
+                </p>
+                <p class="small" style="margin-top:12px;">
+                    <strong>Availability:</strong> <span style="color: #4fd1c5;">●</span> Open to consulting opportunities
+                    <!-- TODO: Update your availability status -->
+                </p>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- CERTIFICATIONS & CREDENTIALS HIGHLIGHTS -->
+        <!-- ============================================ -->
+        <section class="section" style="margin-top:32px">
+            <h2>Certifications & Credentials <small class="label"><a href="certifications.html">view all & course certificates</a></small></h2>
+
+            <div class="card" style="padding:24px; background: linear-gradient(135deg, rgba(96,165,250,0.08), rgba(79,209,197,0.05));">
+                <h3 style="margin:0 0 16px 0;">🏆 Professional Certifications</h3>
+
+                <!-- Credly Badges Section -->
+                <div style="margin-bottom:24px;">
+                    <strong class="small">AWS Certifications (Credly Verified)</strong>
+                    <div style="display:flex; flex-wrap:wrap; gap:20px; margin-top:12px; align-items:center;">
+                        <!-- TODO: Replace these with your actual Credly badge embeds -->
+                        <!-- Get embed codes from: https://www.credly.com/users/[your-username]/badges -->
+
+                        <div style="text-align:center;">
+                            <div style="width:120px; height:120px; background:rgba(255,255,255,0.9); border-radius:8px; display:flex; align-items:center; justify-content:center; border:2px solid #60a5fa;">
+                                <span style="font-size:3rem;">☁️</span>
                             </div>
+                            <div class="small" style="margin-top:8px; font-weight:600;">AWS Certified</div>
+                            <div class="small" style="color:var(--muted);">Solutions Architect</div>
                         </div>
 
-                        <div class="card company-card" style="padding:14px">
-                            <div class="kv">Amazon Development Centre</div>
-                            <div class="small" style="margin-top:6px">
-                                <strong>DevOps Engineer (On-Call POC)</strong><br>
-                                Apr 2022 – Jun 2023 — Developed serverless automation & high-throughput Lambda workflows
-                                for large-scale S3→Lambda→DynamoDB processing and contributed to VIP/migration projects.
+                        <div style="text-align:center;">
+                            <div style="width:120px; height:120px; background:rgba(255,255,255,0.9); border-radius:8px; display:flex; align-items:center; justify-content:center; border:2px solid #4fd1c5;">
+                                <span style="font-size:3rem;">⚙️</span>
                             </div>
+                            <div class="small" style="margin-top:8px; font-weight:600;">AWS Certified</div>
+                            <div class="small" style="color:var(--muted);">DevOps Engineer</div>
                         </div>
 
-                        <div class="card company-card" style="padding:14px">
-                            <div class="kv">Tata Consultancy Services (TCS)</div>
-                            <div class="small" style="margin-top:6px">
-                                <strong>DevOps Engineer</strong><br>
-                                Jul 2019 – Mar 2022 — Managed Jenkins CI/CD pipelines, containerized apps with Docker &
-                                Kubernetes, and automated monitoring/alerting for production services.
-                            </div>
-                        </div>
+                        <!-- Add more badges as needed -->
                     </div>
 
-                    <!-- Skills / Logos -->
-                    <div class="skills-block" style="margin-top:18px">
-                        <h3 style="margin-bottom:8px">Core skillset</h3>
+                    <p class="small" style="margin-top:16px;">
+                        <strong>📝 TODO:</strong> Add your Credly badge embeds here.
+                        Visit <a href="https://www.credly.com" target="_blank" rel="noopener">Credly.com</a>
+                        → Your Badges → Share → Get embed code
+                    </p>
+                </div>
 
-                        <!-- Skill groups -->
-                        <div class="grid" style="gap:12px; grid-template-columns: 1fr;">
-                            <!-- Logos row (wraps) -->
-                            <div class="card" style="padding:12px">
-                                <div class="small" style="margin-bottom:8px"><strong>Cloud & Platforms</strong></div>
-                                <div class="skill-logos"
-                                     style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
-                                    <!-- Put these files in assets/logos/ (see filenames below). Each logo has a text fallback -->
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/aws.svg" alt="AWS logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">AWS</div>
-                                    </div>
+                <!-- AWS Skill Builder Profile -->
+                <div style="margin-top:20px; padding-top:20px; border-top:1px solid rgba(96,165,250,0.2);">
+                    <strong class="small">AWS Skill Builder Profile</strong>
+                    <p class="small" style="margin-top:8px;">
+                        View my complete AWS learning journey and achievements on
+                        <a href="https://skillbuilder.aws/" target="_blank" rel="noopener" style="color:#60a5fa;">
+                            AWS Skill Builder →
+                        </a>
+                    </p>
+                    <!-- TODO: Replace with your actual AWS Skill Builder profile URL -->
+                </div>
 
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/gcp.svg" alt="GCP logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">GCP</div>
-                                    </div>
+                <!-- Other Certifications -->
+                <div style="margin-top:20px; padding-top:20px; border-top:1px solid rgba(96,165,250,0.2);">
+                    <strong class="small">Additional Certifications</strong>
+                    <ul class="small" style="margin:8px 0 0 20px; line-height:2;">
+                        <li>Kubernetes (CKA/CKAD) - <em>In Progress</em></li>
+                        <li>HashiCorp Terraform Associate</li>
+                        <li>Google Cloud Professional Cloud Architect</li>
+                        <!-- TODO: Update with your actual certifications -->
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/kubernetes.svg" alt="Kubernetes logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Kubernetes (EKS/GKE)</div>
-                                    </div>
+        <!-- ============================================ -->
+        <!-- WORK EXPERIENCE SUMMARY -->
+        <!-- ============================================ -->
+        <section class="section" style="margin-top:32px">
+            <h2>Professional Experience <small class="label"><a href="experience.html">view detailed timeline & achievements</a></small></h2>
 
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/serverless.svg" alt="Serverless icon"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Serverless / Lambda</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card" style="padding:12px">
-                                <div class="small" style="margin-bottom:8px"><strong>Infrastructure & IaC</strong></div>
-                                <div class="skill-logos"
-                                     style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/terraform.svg" alt="Terraform logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Terraform</div>
-                                    </div>
-
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/helm.svg" alt="Helm logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Helm</div>
-                                    </div>
-
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/packer.svg" alt="Packer logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Packer</div>
-                                    </div>
-
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/ansible.svg" alt="Ansible logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Ansible</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card" style="padding:12px">
-                                <div class="small" style="margin-bottom:8px"><strong>CI/CD & DevOps</strong></div>
-                                <div class="skill-logos"
-                                     style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/gitlab.svg" alt="GitLab logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">GitLab CI</div>
-                                    </div>
-
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/jenkins.svg" alt="Jenkins logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Jenkins</div>
-                                    </div>
-
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/docker.svg" alt="Docker logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Docker</div>
-                                    </div>
-
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/trivy.svg" alt="Trivy logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Security Scanning</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card" style="padding:12px">
-                                <div class="small" style="margin-bottom:8px"><strong>Scripting, Observability &
-                                    Tools</strong></div>
-                                <div class="skill-logos"
-                                     style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/python.svg" alt="Python logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Python</div>
-                                    </div>
-
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/bash.svg" alt="Bash icon"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Shell scripting</div>
-                                    </div>
-
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/linux.svg" alt="Linux logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Linux</div>
-                                    </div>
-
-                                    <div class="skill-logo" style="text-align:center; width:90px;">
-                                        <img src="assets/logos/athena.svg" alt="Athena logo"
-                                             style="width:48px;height:48px;display:block;margin:0 auto 6px">
-                                        <div class="small">Athena / Analytics</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+            <!-- Condensed Companies Summary -->
+            <div class="grid" style="gap:12px; margin-top:16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                <div class="card company-card" style="padding:16px">
+                    <div class="kv">Roche</div>
+                    <div class="small" style="margin-top:6px">
+                        <strong>Senior DevOps Engineer • Service Owner</strong><br>
+                        Jul 2023 – Present<br>
+                        <span style="color:var(--muted);">Multi-cloud GitLab CI/CD, EKS/GKE, Serverless automation</span>
                     </div>
                 </div>
 
-
-                <aside class="card" style="padding:18px">
-                    <div style="text-align:center">
-                        <img src="assets/profile.svg" alt="Vijay"
-                             style="width:120px;height:120px;border-radius:12px;object-fit:cover;margin-bottom:10px">
-                        <h3 style="margin:6px 0;">Vijay Mourya</h3>
-                        <p class="small">Senior DevOps & Infra Reliability Engineer</p>
-                        <p class="small"><a href="https://github.com/vijayrmourya" target="_blank">GitHub</a> · <a
-                                href="https://www.linkedin.com/in/vijay-mourya-3b409b146" target="_blank">LinkedIn</a>
-                        </p>
-                        <p style="margin-top:10px"><a class="cta" href="resume.pdf" target="_blank">Download Resume</a>
-                        </p>
+                <div class="card company-card" style="padding:16px">
+                    <div class="kv">Amazon Development Centre</div>
+                    <div class="small" style="margin-top:6px">
+                        <strong>DevOps Engineer</strong><br>
+                        Apr 2022 – Jun 2023<br>
+                        <span style="color:var(--muted);">Serverless workflows, Lambda, S3, DynamoDB</span>
                     </div>
-                </aside>
+                </div>
+
+                <div class="card company-card" style="padding:16px">
+                    <div class="kv">Tata Consultancy Services</div>
+                    <div class="small" style="margin-top:6px">
+                        <strong>DevOps Engineer</strong><br>
+                        Jul 2019 – Mar 2022<br>
+                        <span style="color:var(--muted);">Jenkins, Docker, Kubernetes, Cloud migration</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills / Core Tech Stack -->
+            <div class="skills-block" style="margin-top:20px">
+                <h3 style="margin-bottom:8px">Core Tech Stack <small class="label"><a href="experience.html">view complete skillset</a></small></h3>
+
+                <!-- Condensed Logos - Top 12 Technologies -->
+                <div class="card" style="padding:16px">
+                    <div class="skill-logos" style="display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:center;">
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/aws.svg" alt="AWS logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">AWS</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/kubernetes.svg" alt="Kubernetes logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">Kubernetes</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/terraform.svg" alt="Terraform logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">Terraform</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/gitlab.svg" alt="GitLab logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">GitLab CI</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/docker.svg" alt="Docker logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">Docker</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/python.svg" alt="Python logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">Python</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/helm.svg" alt="Helm logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">Helm</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/ansible.svg" alt="Ansible logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">Ansible</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/gcp.svg" alt="GCP logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">GCP</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/jenkins.svg" alt="Jenkins logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">Jenkins</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/prometheus.svg" alt="Prometheus logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">Prometheus</div>
+                        </div>
+
+                        <div class="skill-logo" style="text-align:center; width:80px;">
+                            <img src="assets/logos/linux.svg" alt="Linux logo" loading="lazy"
+                                 style="width:48px;height:48px;display:block;margin:0 auto 6px">
+                            <div class="small">Linux</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- BLOG / CONTENT SECTION -->
+        <!-- TODO: Link to your Medium posts or technical blog articles -->
+        <!-- ============================================ -->
+        <section style="margin-top:32px">
+            <h2 class="section-title">Latest Writings <small class="label"><a href="study.html">view all</a></small></h2>
+            <div class="grid">
+                <a href="#" class="card" target="_blank">
+                    <strong>Automating AWS Patch Management with EventBridge</strong>
+                    <div class="small">How we reduced manual patching time by 90% using serverless automation</div>
+                    <div class="small" style="margin-top:8px; color:#60a5fa;">5 min read →</div>
+                    <!-- TODO: Replace with actual blog post link -->
+                </a>
+                <a href="#" class="card" target="_blank">
+                    <strong>Multi-Cloud GitLab Runners: EKS vs GKE</strong>
+                    <div class="small">Performance comparison and cost analysis of CI/CD runners</div>
+                    <div class="small" style="margin-top:8px; color:#60a5fa;">8 min read →</div>
+                    <!-- TODO: Replace with actual blog post link -->
+                </a>
+                <a href="#" class="card" target="_blank">
+                    <strong>Infrastructure as Code Best Practices</strong>
+                    <div class="small">Lessons learned from managing Terraform at scale</div>
+                    <div class="small" style="margin-top:8px; color:#60a5fa;">6 min read →</div>
+                    <!-- TODO: Add third blog post or remove this card -->
+                </a>
             </div>
         </section>
 
