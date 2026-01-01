@@ -54,7 +54,7 @@ certificates:
   category: Cloud
   filename: AWSSkillBuilder-Getting Started with AWS Security, Identity, and Compliance
     - Course Completion Certificate.pdf
-  completion_date: '2022/08/15'
+  completion_date: '2022-08-15'
   verification_url: ''
 - title: Introduction to AWS CodePipeline
   provider: AWS Skill Builder
@@ -136,6 +136,7 @@ certificates:
   completion_date: '2025-12-25'
   verification_url: ''
 - title: Developing Generative Artificial Intelligence Solutions
+  number: "20"
   provider: AWS Skill Builder
   category: ArtificialIntellegence_MachineLearning
   filename: AWSSkillBuilder_Developing Generative Artificial Intelligence Solutions.pdf
@@ -166,6 +167,7 @@ certificates:
   completion_date: '2025-12-19'
   verification_url: ''
 - title: Optimizing Foundation Models
+  number: "25"
   provider: AWS Skill Builder
   category: ArtificialIntellegence_MachineLearning
   filename: AWSSkillBuilder_Optimizing Foundation Models.pdf
@@ -196,6 +198,7 @@ certificates:
   completion_date: '2024-01-11'
   verification_url: ''
 - title: Introduction to DevOps
+  number: "30"
   provider: Coursera (IBM)
   category: DevOps
   filename: IBM_Coursera_Introduction to DevOps.pdf
@@ -209,7 +212,7 @@ certificates:
   verification_url: ''
 - title: Python for Data Science, AI & Development
   provider: Coursera (IBM)
-  category: ArtificialIntellegence_MachineLearning
+  category: Python
   filename: IBMCoursera_Python for Data Science, AI & Development.pdf
   completion_date: '2025-12-21'
   verification_url: ''
