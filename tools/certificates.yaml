@@ -133,13 +133,13 @@ certificates:
   provider: AWS Skill Builder
   category: ArtificialIntellegence_MachineLearning
   filename: AWSSkillBuilder_AWS Artificial Intelligence Practitioner Learning Plan.pdf
-  completion_date: ''
+  completion_date: '2025-12-25'
   verification_url: ''
 - title: Developing Generative Artificial Intelligence Solutions
   provider: AWS Skill Builder
   category: ArtificialIntellegence_MachineLearning
   filename: AWSSkillBuilder_Developing Generative Artificial Intelligence Solutions.pdf
-  completion_date: ''
+  completion_date: '2025-12-24'
   verification_url: ''
 - title: Developing Machine Learning Solutions
   provider: AWS Skill Builder
