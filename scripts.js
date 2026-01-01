@@ -123,6 +123,127 @@ function renderCertificatesSummary() {
     });
 }
 
+// Load and render badge certifications
+function renderBadgeCertifications() {
+  const credentialsContainer = document.getElementById('credentials-certifications-grid');
+
+  // If container doesn't exist, exit early
+  if (!credentialsContainer) return;
+
+  fetch('assets/badge_certifications.json')
+    .then(r => r.ok ? r.json() : Promise.reject('no json'))
+    .then(data => {
+      const categories = data.categories || {};
+
+      // Combine all certifications from all categories
+      let allCertifications = [];
+
+      Object.entries(categories).forEach(([categoryKey, category]) => {
+        if (category.certifications && category.certifications.length > 0) {
+          allCertifications = allCertifications.concat(category.certifications);
+        }
+      });
+
+      // Sort by issue date (newest first)
+      allCertifications.sort((a, b) => {
+        const dateA = a.issue_date ? new Date(a.issue_date) : new Date(0);
+        const dateB = b.issue_date ? new Date(b.issue_date) : new Date(0);
+        return dateB - dateA;
+      });
+
+      // Render all certifications
+      credentialsContainer.innerHTML = allCertifications.map(cert => {
+        const hasVerification = cert.verification_url && !cert.verification_url.includes('YOUR-');
+        const expiryWarning = cert.expiry_date && new Date(cert.expiry_date) < new Date() ?
+          '<div class="small" style="color:#EF4444;margin-top:4px">⚠️ Expired</div>' : '';
+
+        const content = `
+          <div class="badge">
+            <img src="${cert.badge_path}"
+                 alt="${cert.title}"
+                 onerror="this.src='${cert.fallback_svg}'">
+            <div class="issuer" style="margin-top:8px">
+              <strong style="display:block;margin-bottom:4px;color:#e6eef8">${cert.title}</strong>
+              <span style="color:var(--muted)">${cert.provider}</span>
+              ${cert.issue_date ? `<div class="small" style="margin-top:4px;color:var(--muted)">Issued: ${new Date(cert.issue_date).toLocaleDateString('en-US', {year: 'numeric', month: 'short'})}</div>` : ''}
+              ${cert.expiry_date ? `<div class="small" style="color:var(--muted)">Expires: ${new Date(cert.expiry_date).toLocaleDateString('en-US', {year: 'numeric', month: 'short'})}</div>` : ''}
+              ${expiryWarning}
+              ${cert.description ? `<div class="small" style="margin-top:8px;color:var(--muted);font-style:italic">${cert.description}</div>` : ''}
+            </div>
+          </div>
+        `;
+
+        if (hasVerification) {
+          return `<a href="${cert.verification_url}" target="_blank" rel="noopener" style="text-decoration:none">${content}</a>`;
+        } else {
+          return content;
+        }
+      }).join('');
+
+      // If no certifications, show placeholder
+      if (allCertifications.length === 0) {
+        credentialsContainer.innerHTML = '<div class="small" style="color:var(--muted);padding:20px;text-align:center">Configure your certifications in tools/badge_certifications.yaml</div>';
+      }
+    })
+    .catch(err => {
+      console.warn('badge certifications load failed', err);
+      credentialsContainer.innerHTML = '<div class="small" style="color:var(--muted);padding:20px;text-align:center">Configure your certifications in tools/badge_certifications.yaml</div>';
+    });
+}
+
+// Render badge certifications summary (for homepage)
+function renderBadgeCertificationsSummary() {
+  const container = document.getElementById('badge-certifications-summary-home');
+  if (!container) return;
+
+  fetch('assets/badge_certifications.json')
+    .then(r => r.ok ? r.json() : Promise.reject('no json'))
+    .then(data => {
+      const categories = data.categories || {};
+
+      // Get all certifications from all categories
+      let allCerts = [];
+      Object.values(categories).forEach(cat => {
+        if (cat.certifications) {
+          allCerts = allCerts.concat(cat.certifications);
+        }
+      });
+
+      // Sort by issue date (newest first)
+      allCerts.sort((a, b) => {
+        const dateA = a.issue_date ? new Date(a.issue_date) : new Date(0);
+        const dateB = b.issue_date ? new Date(b.issue_date) : new Date(0);
+        return dateB - dateA;
+      });
+
+      // Render ALL badges in smaller size
+      container.innerHTML = allCerts.map(cert => `
+        <a href="${cert.verification_url}" target="_blank" rel="noopener" style="text-decoration:none; display:block;">
+          <div style="text-align:center;">
+            <div style="width:100%; aspect-ratio:1; background:rgba(255,255,255,0.95); border-radius:6px; padding:6px; border:1px solid rgba(96,165,250,0.3); transition:all 0.3s; overflow:hidden;"
+                 onmouseover="this.style.borderColor='#60a5fa'; this.style.transform='translateY(-2px)'"
+                 onmouseout="this.style.borderColor='rgba(96,165,250,0.3)'; this.style.transform='translateY(0)'">
+              <img src="${cert.badge_path}"
+                   alt="${cert.title}"
+                   onerror="this.src='${cert.fallback_svg}'"
+                   style="width:100%; height:100%; object-fit:contain;">
+            </div>
+          </div>
+        </a>
+      `).join('');
+
+      // Update total count if element exists
+      const totalElement = document.getElementById('badge-total-count');
+      if (totalElement) {
+        totalElement.textContent = data.total_count || allCerts.length;
+      }
+    })
+    .catch(err => {
+      console.warn('badge certifications summary load failed', err);
+      container.innerHTML = '<div class="small" style="color:var(--muted);padding:20px;text-align:center;">Configure your certifications in tools/badge_certifications.yaml</div>';
+    });
+}
+
 // Mobile navigation handler
 document.addEventListener('DOMContentLoaded', function() {
   const mobileNav = document.getElementById('mobile-nav');
@@ -142,4 +263,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Render certificate summary on homepage
   renderCertificatesSummary();
+
+  // Render badge certifications if containers exist
+  renderBadgeCertifications();
+
+  // Render badge certifications summary on homepage
+  renderBadgeCertificationsSummary();
 });
