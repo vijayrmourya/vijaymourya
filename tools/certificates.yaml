@@ -145,13 +145,13 @@ certificates:
   provider: AWS Skill Builder
   category: ArtificialIntellegence_MachineLearning
   filename: AWSSkillBuilder_Developing Machine Learning Solutions.pdf
-  completion_date: ''
+  completion_date: '2025-12-24'
   verification_url: ''
 - title: Essentials of Prompt Engineering
   provider: AWS Skill Builder
   category: ArtificialIntellegence_MachineLearning
   filename: AWSSkillBuilder_Essentials of Prompt Engineering.pdf
-  completion_date: ''
+  completion_date: '2025-12-25'
   verification_url: ''
 - title: Exploring Artificial Intelligence Use Cases and Applications
   provider: AWS Skill Builder
