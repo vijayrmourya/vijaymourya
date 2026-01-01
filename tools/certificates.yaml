@@ -17,64 +17,64 @@ certificates:
   provider: A Cloud Guru
   category: Cloud
   filename: ACloudGuru_Introduction to aws.pdf
-  completion_date: ''
+  completion_date: '2023-05-27'
   verification_url: ''
 - title: AWS Cloud Practitioner Essentials
   provider: AWS Skill Builder
   category: Cloud
   filename: AWSSkillBuilder-AWS Cloud Practitioner Essentials - AWS Course Completion.pdf
-  completion_date: ''
+  completion_date: '2022-05-24'
   verification_url: ''
 - title: AWS Compute Services Overview
   provider: AWS Skill Builder
   category: Cloud
   filename: AWSSkillBuilder-AWS Compute Services Overview - Course Completion Certificate.pdf
-  completion_date: ''
+  completion_date: '2022-08-15'
   verification_url: ''
 - title: AWS Technical Essentials
   provider: AWS Skill Builder
   category: Cloud
   filename: AWSSkillBuilder-AWS Technical Essentials - AWS Course Completion.pdf
-  completion_date: ''
+  completion_date: '2022-08-13'
   verification_url: ''
 - title: Amazon RDS Service Primer
   provider: AWS Skill Builder
   category: Cloud
   filename: AWSSkillBuilder-Amazon RDS Service Primer - AWS Course Completion Certificate.pdf
-  completion_date: ''
+  completion_date: '2022-10-02'
   verification_url: ''
 - title: Architecting on AWS
   provider: AWS Skill Builder
   category: Cloud
   filename: AWSSkillBuilder-Architecting on AWS - AWS Course Completion.pdf
-  completion_date: ''
+  completion_date: '2022-07-22'
   verification_url: ''
 - title: Getting Started with AWS Security, Identity, and Compliance
   provider: AWS Skill Builder
   category: Cloud
   filename: AWSSkillBuilder-Getting Started with AWS Security, Identity, and Compliance
     - Course Completion Certificate.pdf
-  completion_date: ''
+  completion_date: '2022/08/15'
   verification_url: ''
 - title: Introduction to AWS CodePipeline
   provider: AWS Skill Builder
   category: Cloud
   filename: AWSSkillBuilder-Introduction to AWS CodePipeline_AWS Course Completion
     Certificate.pdf
-  completion_date: ''
+  completion_date: '2023-03-17'
   verification_url: ''
 - title: Introduction to AWS Identity and Access Management
   provider: AWS Skill Builder
   category: Cloud
   filename: AWSSkillBuilder-Introduction to AWS Identity and Access Management - AWS
     Course Completion.pdf
-  completion_date: ''
+  completion_date: '2022-08-13'
   verification_url: ''
 - title: Protecting your instance with SG
   provider: AWS Skill Builder
   category: Cloud
   filename: AWSSkillBuilder-Protecting your instance with SG - Course Completion Certificate.pdf
-  completion_date: ''
+  completion_date: '2022-08-24'
   verification_url: ''
 - title: AWS Lambda Foundations
   provider: AWS Skill Builder
@@ -157,25 +157,25 @@ certificates:
   provider: AWS Skill Builder
   category: ArtificialIntellegence_MachineLearning
   filename: AWSSkillBuilder_Exploring Artificial Intelligence Use Cases and Applications.pdf
-  completion_date: ''
+  completion_date: '2025-12-19'
   verification_url: ''
 - title: Fundamentals of Machine Learning and Artificial Intelligence
   provider: AWS Skill Builder
   category: ArtificialIntellegence_MachineLearning
   filename: AWSSkillBuilder_Fundamentals of Machine Learning and Artificial Intelligence.pdf
-  completion_date: ''
+  completion_date: '2025-12-19'
   verification_url: ''
 - title: Optimizing Foundation Models
   provider: AWS Skill Builder
   category: ArtificialIntellegence_MachineLearning
   filename: AWSSkillBuilder_Optimizing Foundation Models.pdf
-  completion_date: ''
+  completion_date: '2025-12-25'
   verification_url: ''
 - title: AWS Machine Learning Foundations 2022
   provider: Udacity
   category: ArtificialIntellegence_MachineLearning
   filename: Udacity-AWS-Machine-Learning-Foundations-2022.pdf
-  completion_date: ''
+  completion_date: '2022-09-01'
   verification_url: ''
 - title: Getting Started with DevOps on AWS
   provider: AWS Skill Builder
