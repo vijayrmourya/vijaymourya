@@ -38,6 +38,7 @@ jobs:
 
       - name: Generate experience page
         run: |
+          chmod +x .github/scripts/commit_and_push.sh .github/scripts/certificates_summary.sh && ls -l .github/scripts
           echo "🔄 Generating experience.html from YAML..."
           python3 tools/generate_experience.py
           echo "✅ Experience page generated"
