@@ -29,7 +29,9 @@ jobs:
       - name: Install dependencies
         run: pip install -q pyyaml
       - name: Generate badges
-        run: python3 tools/generate_badge_certifications.py
+        run: |
+          chmod +x .github/scripts/commit_and_push.sh .github/scripts/certificates_summary.sh && ls -l .github/scripts
+          python3 tools/generate_badge_certifications.py
       - name: Commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
