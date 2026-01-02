@@ -1,4 +1,8 @@
 name: Update Badge Certifications
+
+concurrency:
+  group: portfolio-update-serialize
+  cancel-in-progress: false
 on:
   push:
     branches: [main, master]
@@ -15,8 +19,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.11'
       - name: Install dependencies
@@ -24,6 +31,8 @@ jobs:
       - name: Generate badges
         run: python3 tools/generate_badge_certifications.py
       - name: Commit and push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -31,5 +40,7 @@ jobs:
           if ! git diff --staged --quiet; then
             COUNT=$(python3 -c "import json; print(json.load(open('assets/badge_certifications.json'))['total_count'])" 2>/dev/null || echo "0")
             git commit -m "chore: update badge certifications ($COUNT badges) [skip ci]"
+            BRANCH=${GITHUB_REF#refs/heads/}
+            git pull --rebase origin "$BRANCH" || { echo "Remote changed, aborting push"; git rebase --abort || true; exit 0; }
             git push
           fi
