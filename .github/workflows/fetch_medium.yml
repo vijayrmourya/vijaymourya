@@ -45,14 +45,7 @@ jobs:
       - name: Commit and push medium_posts.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILES: "assets/medium_posts.json"
+          COMMIT_MSG_TEMPLATE: "chore: update medium posts [skip ci]"
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/medium_posts.json
-
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: update medium posts" || true
-            BRANCH=${GITHUB_REF#refs/heads/}
-            git pull --rebase origin "$BRANCH" || { echo "Remote changed, aborting push"; git rebase --abort || true; exit 0; }
-            git push
-          fi
+          .github/scripts/commit_and_push.sh
