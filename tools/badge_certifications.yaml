@@ -85,6 +85,16 @@ certifications:
     credential_id: '252bcb4c-f476-4e3b-9701-0f95f4243302'
     description: Click to Verify
 
+  - title: Architecting with Google Kubernetes Engine
+    provider: Coursera (Google Cloud Training)
+    category: Credentials
+    badge_image: Coursera.png
+    verification_url: https://www.coursera.org/account/accomplishments/specialization/certificate/JC2QIJQS5B7F
+    issue_date: '2025-07-10'
+    expiry_date: ''
+    credential_id: 'JC2QIJQS5B7F'
+    description: Click to Verify
+
 # Category Configuration
 categories:
   Credentials:

@@ -1,6 +1,6 @@
 # Vijay Mourya - Portfolio Website
 
-Personal portfolio website for Vijay Mourya - Senior DevOps & Infrastructure Reliability Engineer
+A CI-Driven Personal Portfolio Platform that automates content generation and builds a professional static website using Python scripts and GitHub Actions. The site pulls structured data (certifications, experience, blog posts) from YAML and external sources, automates updates via workflows, and is hosted on GitHub Pages. This repository exemplifies automation, infrastructure-as-code thinking, and architectural delight in a real personal platform.
 
 **Live Site:** [vijayrmourya.github.io](https://vijayrmourya.github.io)
 
@@ -46,9 +46,6 @@ All content is managed through YAML files + Python automation:
 ### 📛 Badge Certifications (Professional Certs)
 
 ```bash
-# Interactive add
-python3 tools/add_badge_certification.py
-
 # Or edit YAML directly
 vim tools/badge_certifications.yaml
 python3 tools/generate_badge_certifications.py
@@ -59,9 +56,6 @@ python3 tools/generate_badge_certifications.py
 ### 📜 Course Certificates (PDF-based)
 
 ```bash
-# Interactive add
-python3 tools/add_certificate.py
-
 # Or edit YAML directly
 vim tools/certificates.yaml
 python3 tools/generate_certificates_from_yaml.py
@@ -72,9 +66,6 @@ python3 tools/generate_certificates_from_yaml.py
 ### 💼 Work Experience
 
 ```bash
-# Interactive add
-python3 tools/add_experience.py
-
 # Or edit YAML directly
 vim tools/experience.yaml
 python3 tools/generate_experience.py
@@ -139,7 +130,6 @@ vijaymourya-master/
 │   ├── certificates.yaml         # Course certs config
 │   ├── experience.yaml           # Experience config
 │   ├── generate_*.py             # Generator scripts
-│   ├── add_*.py                  # Interactive helpers
 │   └── fetch_medium.py           # Medium RSS fetcher
 └── .github/workflows/            # CI/CD automation
 ```

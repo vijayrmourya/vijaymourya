@@ -1,213 +1,366 @@
 {
-  "last_updated": "2025-12-31T20:33:47.148868",
-  "total_count": 36,
+  "last_updated": "2026-01-02T17:32:02.092142",
+  "total_count": 53,
   "categories": {
-    "Cloud": {
-      "display_name": "Cloud Services",
+    "AWS": {
+      "display_name": "AWS",
       "icon": "☁️",
       "color": "#FF9900",
-      "description": "AWS and cloud platform certifications",
-      "count": 10,
+      "description": "AWS training and course certificates",
+      "count": 32,
       "certificates": [
         {
-          "title": "Introduction to aws",
-          "provider": "A Cloud Guru",
-          "filename": "ACloudGuru_Introduction to aws.pdf",
-          "path": "assets/certificates/Cloud/ACloudGuru_Introduction to aws.pdf",
-          "category": "Cloud"
+          "title": "AWS Solutions Architect Advanced - Designing a Multi-Account Architecture",
+          "provider": "AWS Skill Builder",
+          "filename": "AWS Solutions Architect Advanced - Designing a Multi-Account Architecture.pdf",
+          "path": "assets/certificates/AWS/AWS Solutions Architect Advanced - Designing a Multi-Account Architecture.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-15"
         },
         {
-          "title": "AWS Cloud Practitioner Essentials",
+          "title": "Introduction to AWS Lambda",
           "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-AWS Cloud Practitioner Essentials - AWS Course Completion.pdf",
-          "path": "assets/certificates/Cloud/AWSSkillBuilder-AWS Cloud Practitioner Essentials - AWS Course Completion.pdf",
-          "category": "Cloud"
+          "filename": "Introduction to AWS Lambda.pdf",
+          "path": "assets/certificates/AWS/Introduction to AWS Lambda.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-15"
         },
         {
-          "title": "AWS Compute Services Overview",
+          "title": "GitOps for Amazon EKS Automation",
           "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-AWS Compute Services Overview - Course Completion Certificate.pdf",
-          "path": "assets/certificates/Cloud/AWSSkillBuilder-AWS Compute Services Overview - Course Completion Certificate.pdf",
-          "category": "Cloud"
+          "filename": "GitOps for Amazon EKS Automation.pdf",
+          "path": "assets/certificates/AWS/GitOps for Amazon EKS Automation.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-12"
+        },
+        {
+          "title": "Autoscaling and Cost Optimization",
+          "provider": "AWS Skill Builder",
+          "filename": "Autoscaling and Cost Optimization.pdf",
+          "path": "assets/certificates/AWS/Autoscaling and Cost Optimization.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-12"
+        },
+        {
+          "title": "Basic Observability for Amazon EKS",
+          "provider": "AWS Skill Builder",
+          "filename": "Basic Observability for Amazon EKS.pdf",
+          "path": "assets/certificates/AWS/Basic Observability for Amazon EKS.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-12"
+        },
+        {
+          "title": "Amazon EKS Networking",
+          "provider": "AWS Skill Builder",
+          "filename": "Amazon EKS Networking.pdf",
+          "path": "assets/certificates/AWS/Amazon EKS Networking.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-12"
+        },
+        {
+          "title": "Amazon EKS Security",
+          "provider": "AWS Skill Builder",
+          "filename": "Amazon EKS Security.pdf",
+          "path": "assets/certificates/AWS/Amazon EKS Security.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-12"
+        },
+        {
+          "title": "Amazon EKS Deployment Options",
+          "provider": "AWS Skill Builder",
+          "filename": "Amazon EKS Deployment Options.pdf",
+          "path": "assets/certificates/AWS/Amazon EKS Deployment Options.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-12"
+        },
+        {
+          "title": "The Amazon EKS Cluster",
+          "provider": "AWS Skill Builder",
+          "filename": "The Amazon EKS Cluster.pdf",
+          "path": "assets/certificates/AWS/The Amazon EKS Cluster.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-12"
+        },
+        {
+          "title": "Introduction to Kubernetes Core Concepts",
+          "provider": "AWS Skill Builder",
+          "filename": "Introduction to Kubernetes Core Concepts.pdf",
+          "path": "assets/certificates/AWS/Introduction to Kubernetes Core Concepts.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-12"
+        },
+        {
+          "title": "Introduction to Container Basics",
+          "provider": "AWS Skill Builder",
+          "filename": "Introduction to Container Basics.pdf",
+          "path": "assets/certificates/AWS/Introduction to Container Basics.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-12"
+        },
+        {
+          "title": "Introduction to Building with AWS Databases",
+          "provider": "AWS Skill Builder",
+          "filename": "Introduction to Building with AWS Databases.pdf",
+          "path": "assets/certificates/AWS/Introduction to Building with AWS Databases.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-09"
+        },
+        {
+          "title": "AWS Well-Architected Foundations",
+          "provider": "AWS Skill Builder",
+          "filename": "AWS Well-Architected Foundations.pdf",
+          "path": "assets/certificates/AWS/AWS Well-Architected Foundations.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-09"
         },
         {
           "title": "AWS Technical Essentials",
           "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-AWS Technical Essentials - AWS Course Completion.pdf",
-          "path": "assets/certificates/Cloud/AWSSkillBuilder-AWS Technical Essentials - AWS Course Completion.pdf",
-          "category": "Cloud"
+          "filename": "AWS Technical Essentials.pdf",
+          "path": "assets/certificates/AWS/AWS Technical Essentials.pdf",
+          "category": "AWS",
+          "completion_date": "2025-11-08"
         },
         {
-          "title": "Amazon RDS Service Primer",
+          "title": "Deploying Microservices to Amazon EKS",
           "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Amazon RDS Service Primer - AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/Cloud/AWSSkillBuilder-Amazon RDS Service Primer - AWS Course Completion Certificate.pdf",
-          "category": "Cloud"
+          "filename": "Deploying Microservices to Amazon EKS.pdf",
+          "path": "assets/certificates/AWS/Deploying Microservices to Amazon EKS.pdf",
+          "category": "AWS",
+          "completion_date": "2025-06-05"
         },
         {
-          "title": "Architecting on AWS",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Architecting on AWS - AWS Course Completion.pdf",
-          "path": "assets/certificates/Cloud/AWSSkillBuilder-Architecting on AWS - AWS Course Completion.pdf",
-          "category": "Cloud"
-        },
-        {
-          "title": "Getting Started with AWS Security, Identity, and Compliance",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Getting Started with AWS Security, Identity, and Compliance - Course Completion Certificate.pdf",
-          "path": "assets/certificates/Cloud/AWSSkillBuilder-Getting Started with AWS Security, Identity, and Compliance - Course Completion Certificate.pdf",
-          "category": "Cloud"
+          "title": "Introduction to aws",
+          "provider": "A Cloud Guru",
+          "filename": "ACloudGuru_Introduction to aws.pdf",
+          "path": "assets/certificates/AWS/ACloudGuru_Introduction to aws.pdf",
+          "category": "AWS",
+          "completion_date": "2023-05-27"
         },
         {
           "title": "Introduction to AWS CodePipeline",
           "provider": "AWS Skill Builder",
           "filename": "AWSSkillBuilder-Introduction to AWS CodePipeline_AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/Cloud/AWSSkillBuilder-Introduction to AWS CodePipeline_AWS Course Completion Certificate.pdf",
-          "category": "Cloud"
-        },
-        {
-          "title": "Introduction to AWS Identity and Access Management",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Introduction to AWS Identity and Access Management - AWS Course Completion.pdf",
-          "path": "assets/certificates/Cloud/AWSSkillBuilder-Introduction to AWS Identity and Access Management - AWS Course Completion.pdf",
-          "category": "Cloud"
-        },
-        {
-          "title": "Protecting your instance with SG",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Protecting your instance with SG - Course Completion Certificate.pdf",
-          "path": "assets/certificates/Cloud/AWSSkillBuilder-Protecting your instance with SG - Course Completion Certificate.pdf",
-          "category": "Cloud"
-        }
-      ]
-    },
-    "Serverless": {
-      "display_name": "Serverless",
-      "icon": "⚡",
-      "color": "#10B981",
-      "description": "Serverless computing and Lambda",
-      "count": 7,
-      "certificates": [
-        {
-          "title": "AWS Lambda Foundations",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-AWS Lambda Foundations_AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/Serverless/AWSSkillBuilder-AWS Lambda Foundations_AWS Course Completion Certificate.pdf",
-          "category": "Serverless"
-        },
-        {
-          "title": "Amazon API Gateway for Serverless Applications",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Amazon API Gateway for Serverless Applications_AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/Serverless/AWSSkillBuilder-Amazon API Gateway for Serverless Applications_AWS Course Completion Certificate.pdf",
-          "category": "Serverless"
-        },
-        {
-          "title": "Amazon DynamoDB for Serverless Architectures",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Amazon DynamoDB for Serverless Architectures_AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/Serverless/AWSSkillBuilder-Amazon DynamoDB for Serverless Architectures_AWS Course Completion Certificate.pdf",
-          "category": "Serverless"
-        },
-        {
-          "title": "Getting into the Serverless Mindset",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Getting into the Serverless Mindset_AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/Serverless/AWSSkillBuilder-Getting into the Serverless Mindset_AWS Course Completion Certificate.pdf",
-          "category": "Serverless"
-        },
-        {
-          "title": "Introduction to Serverless Development",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Introduction to Serverless Development_AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/Serverless/AWSSkillBuilder-Introduction to Serverless Development_AWS Course Completion Certificate.pdf",
-          "category": "Serverless"
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Introduction to AWS CodePipeline_AWS Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2023-03-17"
         },
         {
           "title": "Introduction to Step Functions",
           "provider": "AWS Skill Builder",
           "filename": "AWSSkillBuilder-Introduction to Step Functions_AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/Serverless/AWSSkillBuilder-Introduction to Step Functions_AWS Course Completion Certificate.pdf",
-          "category": "Serverless"
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Introduction to Step Functions_AWS Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2023-03-17"
+        },
+        {
+          "title": "Introduction to Serverless Development",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Introduction to Serverless Development_AWS Course Completion Certificate.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Introduction to Serverless Development_AWS Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2023-03-15"
+        },
+        {
+          "title": "Getting into the Serverless Mindset",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Getting into the Serverless Mindset_AWS Course Completion Certificate.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Getting into the Serverless Mindset_AWS Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2023-03-14"
+        },
+        {
+          "title": "Amazon API Gateway for Serverless Applications",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Amazon API Gateway for Serverless Applications_AWS Course Completion Certificate.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Amazon API Gateway for Serverless Applications_AWS Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2023-03-12"
+        },
+        {
+          "title": "Amazon DynamoDB for Serverless Architectures",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Amazon DynamoDB for Serverless Architectures_AWS Course Completion Certificate.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Amazon DynamoDB for Serverless Architectures_AWS Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2023-03-12"
+        },
+        {
+          "title": "AWS Lambda Foundations",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-AWS Lambda Foundations_AWS Course Completion Certificate.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-AWS Lambda Foundations_AWS Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2023-03-07"
         },
         {
           "title": "Scaling Serverless Architectures",
           "provider": "AWS Skill Builder",
           "filename": "AWSSkillBuilder-Scaling Serverless Architectures_AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/Serverless/AWSSkillBuilder-Scaling Serverless Architectures_AWS Course Completion Certificate.pdf",
-          "category": "Serverless"
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Scaling Serverless Architectures_AWS Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2023-03-06"
+        },
+        {
+          "title": "Amazon RDS Service Primer",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Amazon RDS Service Primer - AWS Course Completion Certificate.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Amazon RDS Service Primer - AWS Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2022-10-02"
+        },
+        {
+          "title": "Protecting your instance with SG",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Protecting your instance with SG - Course Completion Certificate.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Protecting your instance with SG - Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2022-08-24"
+        },
+        {
+          "title": "AWS Compute Services Overview",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-AWS Compute Services Overview - Course Completion Certificate.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-AWS Compute Services Overview - Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2022-08-15"
+        },
+        {
+          "title": "Getting Started with AWS Security, Identity, and Compliance",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Getting Started with AWS Security, Identity, and Compliance - Course Completion Certificate.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Getting Started with AWS Security, Identity, and Compliance - Course Completion Certificate.pdf",
+          "category": "AWS",
+          "completion_date": "2022-08-15"
+        },
+        {
+          "title": "AWS Technical Essentials",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-AWS Technical Essentials - AWS Course Completion.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-AWS Technical Essentials - AWS Course Completion.pdf",
+          "category": "AWS",
+          "completion_date": "2022-08-13"
+        },
+        {
+          "title": "Introduction to AWS Identity and Access Management",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Introduction to AWS Identity and Access Management - AWS Course Completion.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Introduction to AWS Identity and Access Management - AWS Course Completion.pdf",
+          "category": "AWS",
+          "completion_date": "2022-08-13"
+        },
+        {
+          "title": "Architecting on AWS",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Architecting on AWS - AWS Course Completion.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-Architecting on AWS - AWS Course Completion.pdf",
+          "category": "AWS",
+          "completion_date": "2022-07-22"
+        },
+        {
+          "title": "AWS Cloud Practitioner Essentials",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-AWS Cloud Practitioner Essentials - AWS Course Completion.pdf",
+          "path": "assets/certificates/AWS/AWSSkillBuilder-AWS Cloud Practitioner Essentials - AWS Course Completion.pdf",
+          "category": "AWS",
+          "completion_date": "2022-05-24"
         }
       ]
     },
-    "ArtificialIntellegence_MachineLearning": {
+    "AI-ML": {
       "display_name": "AI & Machine Learning",
       "icon": "🤖",
       "color": "#8B5CF6",
       "description": "Artificial Intelligence and Machine Learning",
-      "count": 9,
+      "count": 11,
       "certificates": [
         {
           "title": "Security, Compliance, and Governance for AI Solutions",
           "provider": "AWS Skill Builder",
           "filename": "AWSSkillBuilder-Security, Compliance, and Governance for AI Solutions.pdf",
-          "path": "assets/certificates/ArtificialIntellegence_MachineLearning/AWSSkillBuilder-Security, Compliance, and Governance for AI Solutions.pdf",
-          "category": "ArtificialIntellegence_MachineLearning"
+          "path": "assets/certificates/AI-ML/AWSSkillBuilder-Security, Compliance, and Governance for AI Solutions.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-12-25"
         },
         {
           "title": "AWS Artificial Intelligence Practitioner Learning Plan",
           "provider": "AWS Skill Builder",
           "filename": "AWSSkillBuilder_AWS Artificial Intelligence Practitioner Learning Plan.pdf",
-          "path": "assets/certificates/ArtificialIntellegence_MachineLearning/AWSSkillBuilder_AWS Artificial Intelligence Practitioner Learning Plan.pdf",
-          "category": "ArtificialIntellegence_MachineLearning"
-        },
-        {
-          "title": "Developing Generative Artificial Intelligence Solutions",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder_Developing Generative Artificial Intelligence Solutions.pdf",
-          "path": "assets/certificates/ArtificialIntellegence_MachineLearning/AWSSkillBuilder_Developing Generative Artificial Intelligence Solutions.pdf",
-          "category": "ArtificialIntellegence_MachineLearning"
-        },
-        {
-          "title": "Developing Machine Learning Solutions",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder_Developing Machine Learning Solutions.pdf",
-          "path": "assets/certificates/ArtificialIntellegence_MachineLearning/AWSSkillBuilder_Developing Machine Learning Solutions.pdf",
-          "category": "ArtificialIntellegence_MachineLearning"
+          "path": "assets/certificates/AI-ML/AWSSkillBuilder_AWS Artificial Intelligence Practitioner Learning Plan.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-12-25"
         },
         {
           "title": "Essentials of Prompt Engineering",
           "provider": "AWS Skill Builder",
           "filename": "AWSSkillBuilder_Essentials of Prompt Engineering.pdf",
-          "path": "assets/certificates/ArtificialIntellegence_MachineLearning/AWSSkillBuilder_Essentials of Prompt Engineering.pdf",
-          "category": "ArtificialIntellegence_MachineLearning"
-        },
-        {
-          "title": "Exploring Artificial Intelligence Use Cases and Applications",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder_Exploring Artificial Intelligence Use Cases and Applications.pdf",
-          "path": "assets/certificates/ArtificialIntellegence_MachineLearning/AWSSkillBuilder_Exploring Artificial Intelligence Use Cases and Applications.pdf",
-          "category": "ArtificialIntellegence_MachineLearning"
-        },
-        {
-          "title": "Fundamentals of Machine Learning and Artificial Intelligence",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder_Fundamentals of Machine Learning and Artificial Intelligence.pdf",
-          "path": "assets/certificates/ArtificialIntellegence_MachineLearning/AWSSkillBuilder_Fundamentals of Machine Learning and Artificial Intelligence.pdf",
-          "category": "ArtificialIntellegence_MachineLearning"
+          "path": "assets/certificates/AI-ML/AWSSkillBuilder_Essentials of Prompt Engineering.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-12-25"
         },
         {
           "title": "Optimizing Foundation Models",
           "provider": "AWS Skill Builder",
           "filename": "AWSSkillBuilder_Optimizing Foundation Models.pdf",
-          "path": "assets/certificates/ArtificialIntellegence_MachineLearning/AWSSkillBuilder_Optimizing Foundation Models.pdf",
-          "category": "ArtificialIntellegence_MachineLearning"
+          "path": "assets/certificates/AI-ML/AWSSkillBuilder_Optimizing Foundation Models.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-12-25"
+        },
+        {
+          "title": "Developing Generative Artificial Intelligence Solutions",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder_Developing Generative Artificial Intelligence Solutions.pdf",
+          "path": "assets/certificates/AI-ML/AWSSkillBuilder_Developing Generative Artificial Intelligence Solutions.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-12-24"
+        },
+        {
+          "title": "Developing Machine Learning Solutions",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder_Developing Machine Learning Solutions.pdf",
+          "path": "assets/certificates/AI-ML/AWSSkillBuilder_Developing Machine Learning Solutions.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-12-24"
+        },
+        {
+          "title": "Exploring Artificial Intelligence Use Cases and Applications",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder_Exploring Artificial Intelligence Use Cases and Applications.pdf",
+          "path": "assets/certificates/AI-ML/AWSSkillBuilder_Exploring Artificial Intelligence Use Cases and Applications.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-12-19"
+        },
+        {
+          "title": "Fundamentals of Machine Learning and Artificial Intelligence",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder_Fundamentals of Machine Learning and Artificial Intelligence.pdf",
+          "path": "assets/certificates/AI-ML/AWSSkillBuilder_Fundamentals of Machine Learning and Artificial Intelligence.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-12-19"
+        },
+        {
+          "title": "AWS Cloud Quest - Generative AI Practitioner",
+          "provider": "AWS Skill Builder",
+          "filename": "AWS Cloud Quest - Generative AI Practitioner.pdf",
+          "path": "assets/certificates/AI-ML/AWS Cloud Quest - Generative AI Practitioner.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-11-15"
+        },
+        {
+          "title": "Official Practice Question Set - AWS Certified AI Practitioner",
+          "provider": "AWS Skill Builder",
+          "filename": "Official Practice Question Set - AWS Certified AI Practitioner.pdf",
+          "path": "assets/certificates/AI-ML/Official Practice Question Set - AWS Certified AI Practitioner.pdf",
+          "category": "AI-ML",
+          "completion_date": "2025-11-09"
         },
         {
           "title": "AWS Machine Learning Foundations 2022",
           "provider": "Udacity",
           "filename": "Udacity-AWS-Machine-Learning-Foundations-2022.pdf",
-          "path": "assets/certificates/ArtificialIntellegence_MachineLearning/Udacity-AWS-Machine-Learning-Foundations-2022.pdf",
-          "category": "ArtificialIntellegence_MachineLearning"
+          "path": "assets/certificates/AI-ML/Udacity-AWS-Machine-Learning-Foundations-2022.pdf",
+          "category": "AI-ML",
+          "completion_date": "2022-09-01"
         }
       ]
     },
@@ -219,39 +372,44 @@
       "count": 5,
       "certificates": [
         {
-          "title": "Getting Started with DevOps on AWS",
-          "provider": "AWS Skill Builder",
-          "filename": "AWSSkillBuilder-Getting Started with DevOps on AWS Course Completion Certificate.pdf",
-          "path": "assets/certificates/DevOps/AWSSkillBuilder-Getting Started with DevOps on AWS Course Completion Certificate.pdf",
-          "category": "DevOps"
-        },
-        {
           "title": "IBMCoursera Introduction to Agile Development and Scrum",
           "provider": "Coursera",
           "filename": "IBMCoursera_Introduction to Agile Development and Scrum.pdf",
           "path": "assets/certificates/DevOps/IBMCoursera_Introduction to Agile Development and Scrum.pdf",
-          "category": "DevOps"
+          "category": "DevOps",
+          "completion_date": "2024-01-13"
         },
         {
-          "title": "IBMCoursera Introduction to Cloud Computing",
-          "provider": "Coursera",
+          "title": "Introduction to Cloud Computing",
+          "provider": "Coursera (IBM)",
           "filename": "IBMCoursera_Introduction to Cloud Computing.pdf",
           "path": "assets/certificates/DevOps/IBMCoursera_Introduction to Cloud Computing.pdf",
-          "category": "DevOps"
+          "category": "DevOps",
+          "completion_date": "2024-01-11"
         },
         {
-          "title": "IBM Coursera Introduction to DevOps",
-          "provider": "Coursera",
+          "title": "Introduction to DevOps",
+          "provider": "Coursera (IBM)",
           "filename": "IBM_Coursera_Introduction to DevOps.pdf",
           "path": "assets/certificates/DevOps/IBM_Coursera_Introduction to DevOps.pdf",
-          "category": "DevOps"
+          "category": "DevOps",
+          "completion_date": "2023-12-10"
         },
         {
           "title": "Course Certificate 12 Factor App VIJAY MOURYA",
           "provider": "KodeKloud",
           "filename": "KodeKloud-Course-Certificate_12-Factor-App_VIJAY-MOURYA.pdf.pdf",
           "path": "assets/certificates/DevOps/KodeKloud-Course-Certificate_12-Factor-App_VIJAY-MOURYA.pdf.pdf",
-          "category": "DevOps"
+          "category": "DevOps",
+          "completion_date": "2023-05-14"
+        },
+        {
+          "title": "Getting Started with DevOps on AWS",
+          "provider": "AWS Skill Builder",
+          "filename": "AWSSkillBuilder-Getting Started with DevOps on AWS Course Completion Certificate.pdf",
+          "path": "assets/certificates/DevOps/AWSSkillBuilder-Getting Started with DevOps on AWS Course Completion Certificate.pdf",
+          "category": "DevOps",
+          "completion_date": "2022-09-04"
         }
       ]
     },
@@ -263,11 +421,12 @@
       "count": 1,
       "certificates": [
         {
-          "title": "IBMCoursera Python for Data Science, AI & Development",
-          "provider": "Coursera",
+          "title": "Python for Data Science, AI & Development",
+          "provider": "Coursera (IBM)",
           "filename": "IBMCoursera_Python for Data Science, AI & Development.pdf",
           "path": "assets/certificates/Python/IBMCoursera_Python for Data Science, AI & Development.pdf",
-          "category": "Python"
+          "category": "Python",
+          "completion_date": "2025-12-21"
         }
       ]
     },
@@ -279,11 +438,12 @@
       "count": 1,
       "certificates": [
         {
-          "title": "KodeKloud Terraform Basics Training Course",
+          "title": "Terraform Basics Training Course",
           "provider": "KodeKloud",
           "filename": "KodeKloud_Terraform-Basics-Training-Course_.pdf",
           "path": "assets/certificates/Terraform/KodeKloud_Terraform-Basics-Training-Course_.pdf",
-          "category": "Terraform"
+          "category": "Terraform",
+          "completion_date": "2022-09-25"
         }
       ]
     },
@@ -299,7 +459,8 @@
           "provider": "KodeKloud",
           "filename": "KodeKloud-Jenkins-Training-Course_VIJAY-MOURYA.pdf.pdf",
           "path": "assets/certificates/Jenkins/KodeKloud-Jenkins-Training-Course_VIJAY-MOURYA.pdf.pdf",
-          "category": "Jenkins"
+          "category": "Jenkins",
+          "completion_date": "2022-09-25"
         }
       ]
     },
@@ -315,7 +476,8 @@
           "provider": "KodeKloud",
           "filename": "KodeKloud_Learning-Linux-Basics-Course-Labs_VIJAY-MOURYA.pdf",
           "path": "assets/certificates/Linux/KodeKloud_Learning-Linux-Basics-Course-Labs_VIJAY-MOURYA.pdf",
-          "category": "Linux"
+          "category": "Linux",
+          "completion_date": "2022-10-09"
         }
       ]
     },
@@ -327,11 +489,12 @@
       "count": 1,
       "certificates": [
         {
-          "title": "Introduction to ansible",
+          "title": "Introduction to Ansible",
           "provider": "A Cloud Guru",
           "filename": "ACloudGuru Introduction to ansible.pdf",
           "path": "assets/certificates/Ansible/ACloudGuru Introduction to ansible.pdf",
-          "category": "Ansible"
+          "category": "Ansible",
+          "completion_date": "2023-06-10"
         }
       ]
     }

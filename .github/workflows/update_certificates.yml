@@ -7,6 +7,8 @@ on:
       - master
   workflow_dispatch:
 
+permissions:
+  contents: write
 jobs:
   generate-certificates:
     runs-on: ubuntu-latest

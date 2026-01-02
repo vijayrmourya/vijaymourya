@@ -11,6 +11,8 @@ on:
       - '.github/workflows/update_experience.yml'
   workflow_dispatch:
 
+permissions:
+  contents: write
 jobs:
   generate-experience:
     runs-on: ubuntu-latest

@@ -9,6 +9,8 @@ on:
     - cron: '0 6 * * *' # daily at 06:00 UTC (adjust if you want)
   workflow_dispatch:
 
+permissions:
+  contents: write
 jobs:
   fetch:
     runs-on: ubuntu-latest

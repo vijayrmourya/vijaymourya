@@ -13,185 +13,323 @@
 #   3. Run the generation script
 
 certificates:
+- title: AWS Solutions Architect Advanced - Designing a Multi-Account Architecture
+  number: "53"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: AWS Solutions Architect Advanced - Designing a Multi-Account Architecture.pdf
+  completion_date: '2025-11-15'
+  verification_url: ''
+- title: AWS Cloud Quest - Generative AI Practitioner
+  number: "52"
+  provider: AWS Skill Builder
+  category: AI-ML
+  filename: AWS Cloud Quest - Generative AI Practitioner.pdf
+  completion_date: '2025-11-15'
+  verification_url: ''
+- title: Introduction to AWS Lambda
+  number: "51"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Introduction to AWS Lambda.pdf
+  completion_date: '2025-11-15'
+  verification_url: ''
+- title: GitOps for Amazon EKS Automation
+  number: "50"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: GitOps for Amazon EKS Automation.pdf
+  completion_date: '2025-11-12'
+  verification_url: ''
+- title: Autoscaling and Cost Optimization
+  number: "49"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Autoscaling and Cost Optimization.pdf
+  completion_date: '2025-11-12'
+  verification_url: ''
+- title: Basic Observability for Amazon EKS
+  number: "48"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Basic Observability for Amazon EKS.pdf
+  completion_date: '2025-11-12'
+  verification_url: ''
+- title: Amazon EKS Networking
+  number: "47"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Amazon EKS Networking.pdf
+  completion_date: '2025-11-12'
+  verification_url: ''
+- title: Amazon EKS Security
+  number: "46"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Amazon EKS Security.pdf
+  completion_date: '2025-11-12'
+  verification_url: ''
+- title: Amazon EKS Deployment Options
+  number: "45"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Amazon EKS Deployment Options.pdf
+  completion_date: '2025-11-12'
+  verification_url: ''
+- title: The Amazon EKS Cluster
+  number: "44"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: The Amazon EKS Cluster.pdf
+  completion_date: '2025-11-12'
+  verification_url: ''
+- title: Introduction to Kubernetes Core Concepts
+  number: "43"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Introduction to Kubernetes Core Concepts.pdf
+  completion_date: '2025-11-12'
+  verification_url: ''
+- title: Introduction to Container Basics
+  number: "42"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Introduction to Container Basics.pdf
+  completion_date: '2025-11-12'
+  verification_url: ''
+- title: Introduction to Building with AWS Databases
+  number: "41"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Introduction to Building with AWS Databases.pdf
+  completion_date: '2025-11-09'
+  verification_url: ''
+- title: Official Practice Question Set - AWS Certified AI Practitioner
+  number: "40"
+  provider: AWS Skill Builder
+  category: AI-ML
+  filename: Official Practice Question Set - AWS Certified AI Practitioner.pdf
+  completion_date: '2025-11-09'
+  verification_url: ''
+- title: AWS Well-Architected Foundations
+  number: "39"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: AWS Well-Architected Foundations.pdf
+  completion_date: '2025-11-09'
+  verification_url: ''
+- title: AWS Technical Essentials
+  number: "38"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: AWS Technical Essentials.pdf
+  completion_date: '2025-11-08'
+  verification_url: ''
+- title: Deploying Microservices to Amazon EKS
+  number: "37"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: Deploying Microservices to Amazon EKS.pdf
+  completion_date: '2025-06-05'
+  verification_url: ''
 - title: Introduction to aws
+  number: "1"
   provider: A Cloud Guru
-  category: Cloud
+  category: AWS
   filename: ACloudGuru_Introduction to aws.pdf
   completion_date: '2023-05-27'
   verification_url: ''
 - title: AWS Cloud Practitioner Essentials
+  number: "2"
   provider: AWS Skill Builder
-  category: Cloud
+  category: AWS
   filename: AWSSkillBuilder-AWS Cloud Practitioner Essentials - AWS Course Completion.pdf
   completion_date: '2022-05-24'
   verification_url: ''
 - title: AWS Compute Services Overview
+  number: "3"
   provider: AWS Skill Builder
-  category: Cloud
+  category: AWS
   filename: AWSSkillBuilder-AWS Compute Services Overview - Course Completion Certificate.pdf
   completion_date: '2022-08-15'
   verification_url: ''
 - title: AWS Technical Essentials
+  number: "4"
   provider: AWS Skill Builder
-  category: Cloud
+  category: AWS
   filename: AWSSkillBuilder-AWS Technical Essentials - AWS Course Completion.pdf
   completion_date: '2022-08-13'
   verification_url: ''
 - title: Amazon RDS Service Primer
+  number: "5"
   provider: AWS Skill Builder
-  category: Cloud
+  category: AWS
   filename: AWSSkillBuilder-Amazon RDS Service Primer - AWS Course Completion Certificate.pdf
   completion_date: '2022-10-02'
   verification_url: ''
 - title: Architecting on AWS
+  number: "6"
   provider: AWS Skill Builder
-  category: Cloud
+  category: AWS
   filename: AWSSkillBuilder-Architecting on AWS - AWS Course Completion.pdf
   completion_date: '2022-07-22'
   verification_url: ''
 - title: Getting Started with AWS Security, Identity, and Compliance
+  number: "7"
   provider: AWS Skill Builder
-  category: Cloud
-  filename: AWSSkillBuilder-Getting Started with AWS Security, Identity, and Compliance
-    - Course Completion Certificate.pdf
+  category: AWS
+  filename: AWSSkillBuilder-Getting Started with AWS Security, Identity, and Compliance - Course Completion Certificate.pdf
   completion_date: '2022-08-15'
   verification_url: ''
 - title: Introduction to AWS CodePipeline
+  number: "8"
   provider: AWS Skill Builder
-  category: Cloud
-  filename: AWSSkillBuilder-Introduction to AWS CodePipeline_AWS Course Completion
-    Certificate.pdf
+  category: AWS
+  filename: AWSSkillBuilder-Introduction to AWS CodePipeline_AWS Course Completion Certificate.pdf
   completion_date: '2023-03-17'
   verification_url: ''
 - title: Introduction to AWS Identity and Access Management
+  number: "9"
   provider: AWS Skill Builder
-  category: Cloud
-  filename: AWSSkillBuilder-Introduction to AWS Identity and Access Management - AWS
-    Course Completion.pdf
+  category: AWS
+  filename: AWSSkillBuilder-Introduction to AWS Identity and Access Management - AWS Course Completion.pdf
   completion_date: '2022-08-13'
   verification_url: ''
 - title: Protecting your instance with SG
+  number: "10"
   provider: AWS Skill Builder
-  category: Cloud
+  category: AWS
   filename: AWSSkillBuilder-Protecting your instance with SG - Course Completion Certificate.pdf
   completion_date: '2022-08-24'
   verification_url: ''
 - title: AWS Lambda Foundations
+  number: "11"
   provider: AWS Skill Builder
-  category: Serverless
+  category: AWS
   filename: AWSSkillBuilder-AWS Lambda Foundations_AWS Course Completion Certificate.pdf
   completion_date: '2023-03-07'
   verification_url: ''
 - title: Amazon API Gateway for Serverless Applications
+  number: "12"
   provider: AWS Skill Builder
-  category: Serverless
-  filename: AWSSkillBuilder-Amazon API Gateway for Serverless Applications_AWS Course
-    Completion Certificate.pdf
+  category: AWS
+  filename: AWSSkillBuilder-Amazon API Gateway for Serverless Applications_AWS Course Completion Certificate.pdf
   completion_date: '2023-03-12'
   verification_url: ''
 - title: Amazon DynamoDB for Serverless Architectures
+  number: "13"
   provider: AWS Skill Builder
-  category: Serverless
-  filename: AWSSkillBuilder-Amazon DynamoDB for Serverless Architectures_AWS Course
-    Completion Certificate.pdf
+  category: AWS
+  filename: AWSSkillBuilder-Amazon DynamoDB for Serverless Architectures_AWS Course Completion Certificate.pdf
   completion_date: '2023-03-12'
   verification_url: ''
 - title: Getting into the Serverless Mindset
+  number: "14"
   provider: AWS Skill Builder
-  category: Serverless
-  filename: AWSSkillBuilder-Getting into the Serverless Mindset_AWS Course Completion
-    Certificate.pdf
+  category: AWS
+  filename: AWSSkillBuilder-Getting into the Serverless Mindset_AWS Course Completion Certificate.pdf
   completion_date: '2023-03-14'
   verification_url: ''
 - title: Introduction to Serverless Development
+  number: "15"
   provider: AWS Skill Builder
-  category: Serverless
-  filename: AWSSkillBuilder-Introduction to Serverless Development_AWS Course Completion
-    Certificate.pdf
+  category: AWS
+  filename: AWSSkillBuilder-Introduction to Serverless Development_AWS Course Completion Certificate.pdf
   completion_date: '2023-03-15'
   verification_url: ''
 - title: Introduction to Step Functions
+  number: "16"
   provider: AWS Skill Builder
-  category: Serverless
+  category: AWS
   filename: AWSSkillBuilder-Introduction to Step Functions_AWS Course Completion Certificate.pdf
   completion_date: '2023-03-17'
   verification_url: ''
 - title: Scaling Serverless Architectures
+  number: "17"
   provider: AWS Skill Builder
-  category: Serverless
-  filename: AWSSkillBuilder-Scaling Serverless Architectures_AWS Course Completion
-    Certificate.pdf
+  category: AWS
+  filename: AWSSkillBuilder-Scaling Serverless Architectures_AWS Course Completion Certificate.pdf
   completion_date: '2023-03-06'
   verification_url: ''
 - title: Security, Compliance, and Governance for AI Solutions
+  number: "18"
   provider: AWS Skill Builder
-  category: ArtificialIntellegence_MachineLearning
+  category: AI-ML
   filename: AWSSkillBuilder-Security, Compliance, and Governance for AI Solutions.pdf
   completion_date: '2025-12-25'
   verification_url: ''
 - title: AWS Artificial Intelligence Practitioner Learning Plan
+  number: "19"
   provider: AWS Skill Builder
-  category: ArtificialIntellegence_MachineLearning
+  category: AI-ML
   filename: AWSSkillBuilder_AWS Artificial Intelligence Practitioner Learning Plan.pdf
   completion_date: '2025-12-25'
   verification_url: ''
 - title: Developing Generative Artificial Intelligence Solutions
   number: "20"
   provider: AWS Skill Builder
-  category: ArtificialIntellegence_MachineLearning
+  category: AI-ML
   filename: AWSSkillBuilder_Developing Generative Artificial Intelligence Solutions.pdf
   completion_date: '2025-12-24'
   verification_url: ''
 - title: Developing Machine Learning Solutions
+  number: "21"
   provider: AWS Skill Builder
-  category: ArtificialIntellegence_MachineLearning
+  category: AI-ML
   filename: AWSSkillBuilder_Developing Machine Learning Solutions.pdf
   completion_date: '2025-12-24'
   verification_url: ''
 - title: Essentials of Prompt Engineering
+  number: "22"
   provider: AWS Skill Builder
-  category: ArtificialIntellegence_MachineLearning
+  category: AI-ML
   filename: AWSSkillBuilder_Essentials of Prompt Engineering.pdf
   completion_date: '2025-12-25'
   verification_url: ''
 - title: Exploring Artificial Intelligence Use Cases and Applications
+  number: "23"
   provider: AWS Skill Builder
-  category: ArtificialIntellegence_MachineLearning
+  category: AI-ML
   filename: AWSSkillBuilder_Exploring Artificial Intelligence Use Cases and Applications.pdf
   completion_date: '2025-12-19'
   verification_url: ''
 - title: Fundamentals of Machine Learning and Artificial Intelligence
+  number: "24"
   provider: AWS Skill Builder
-  category: ArtificialIntellegence_MachineLearning
+  category: AI-ML
   filename: AWSSkillBuilder_Fundamentals of Machine Learning and Artificial Intelligence.pdf
   completion_date: '2025-12-19'
   verification_url: ''
 - title: Optimizing Foundation Models
   number: "25"
   provider: AWS Skill Builder
-  category: ArtificialIntellegence_MachineLearning
+  category: AI-ML
   filename: AWSSkillBuilder_Optimizing Foundation Models.pdf
   completion_date: '2025-12-25'
   verification_url: ''
 - title: AWS Machine Learning Foundations 2022
+  number: "26"
   provider: Udacity
-  category: ArtificialIntellegence_MachineLearning
+  category: AI-ML
   filename: Udacity-AWS-Machine-Learning-Foundations-2022.pdf
   completion_date: '2022-09-01'
   verification_url: ''
-- title: Getting Started with DevOps on AWS - 
+- title: Getting Started with DevOps on AWS
+  number: "27"
   provider: AWS Skill Builder
   category: DevOps
   filename: AWSSkillBuilder-Getting Started with DevOps on AWS Course Completion Certificate.pdf
   completion_date: '2022-09-04'
   verification_url: ''
 - title: IBMCoursera Introduction to Agile Development and Scrum
+  number: "28"
   provider: Coursera
   category: DevOps
   filename: IBMCoursera_Introduction to Agile Development and Scrum.pdf
   completion_date: '2024-01-13'
   verification_url: ''
 - title: Introduction to Cloud Computing
+  number: "29"
   provider: Coursera (IBM)
   category: DevOps
   filename: IBMCoursera_Introduction to Cloud Computing.pdf
@@ -205,94 +343,102 @@ certificates:
   completion_date: '2023-12-10'
   verification_url: ''
 - title: Course Certificate 12 Factor App VIJAY MOURYA
+  number: "31"
   provider: KodeKloud
   category: DevOps
   filename: KodeKloud-Course-Certificate_12-Factor-App_VIJAY-MOURYA.pdf.pdf
   completion_date: '2023-05-14'
   verification_url: ''
 - title: Python for Data Science, AI & Development
+  number: "32"
   provider: Coursera (IBM)
   category: Python
   filename: IBMCoursera_Python for Data Science, AI & Development.pdf
   completion_date: '2025-12-21'
   verification_url: ''
 - title: Terraform Basics Training Course
+  number: "33"
   provider: KodeKloud
   category: Terraform
   filename: KodeKloud_Terraform-Basics-Training-Course_.pdf
   completion_date: '2022-09-25'
   verification_url: ''
 - title: Jenkins Training Course VIJAY MOURYA
+  number: "34"
   provider: KodeKloud
   category: Jenkins
   filename: KodeKloud-Jenkins-Training-Course_VIJAY-MOURYA.pdf.pdf
   completion_date: '2022-09-25'
   verification_url: ''
 - title: KodeKloud Learning Linux Basics Course Labs VIJAY MOURYA
+  number: "35"
   provider: KodeKloud
   category: Linux
   filename: KodeKloud_Learning-Linux-Basics-Course-Labs_VIJAY-MOURYA.pdf
   completion_date: '2022-10-09'
   verification_url: ''
 - title: Introduction to Ansible
+  number: "36"
   provider: A Cloud Guru
   category: Ansible
   filename: ACloudGuru Introduction to ansible.pdf
   completion_date: '2023-06-10'
   verification_url: ''
+
+# Categories metadata (keys should match categories used above)
 categories:
-  Cloud:
-    icon: ☁️
-    color: '#FF9900'
-    display_name: Cloud Services
-    description: AWS and cloud platform certifications
-  CloudArchitect:
-    icon: 🏛️
-    color: '#3B82F6'
-    display_name: Cloud Architecture
-    description: Cloud architecture and design patterns
-  Serverless:
-    icon: ⚡
-    color: '#10B981'
-    display_name: Serverless
-    description: Serverless computing and Lambda
-  ArtificialIntellegence_MachineLearning:
-    icon: 🤖
+  Ansible:
+    icon: "🔧"
+    color: '#EE0000'
+    display_name: Ansible
+    description: Configuration management and automation
+  AI-ML:
+    icon: "🤖"
     color: '#8B5CF6'
     display_name: AI & Machine Learning
     description: Artificial Intelligence and Machine Learning
+  AWS:
+    icon: "☁️"
+    color: '#FF9900'
+    display_name: AWS
+    description: AWS training and course certificates
   DevOps:
-    icon: 🚀
+    icon: "🚀"
     color: '#4A90E2'
     display_name: DevOps
     description: DevOps practices and methodologies
-  Python:
-    icon: 🐍
-    color: '#3776AB'
-    display_name: Python
-    description: Python programming and development
-  Terraform:
-    icon: 🏗️
-    color: '#7B42BC'
-    display_name: Terraform
-    description: Infrastructure as Code with Terraform
   Jenkins:
-    icon: ⚙️
+    icon: "⚙️"
     color: '#D24939'
     display_name: Jenkins
     description: CI/CD automation with Jenkins
   Linux:
-    icon: 🐧
+    icon: "🐧"
     color: '#FCC624'
     display_name: Linux
     description: Linux system administration
-  Ansible:
-    icon: 🔧
-    color: '#EE0000'
-    display_name: Ansible
-    description: Configuration management and automation
-  MachineLearning:
-    icon: 🧠
-    color: '#00D9FF'
-    display_name: Machine Learning
-    description: Machine Learning foundations
+  Python:
+    icon: "🐍"
+    color: '#3776AB'
+    display_name: Python
+    description: Python programming and development
+  Terraform:
+    icon: "🏗️"
+    color: '#7B42BC'
+    display_name: Terraform
+    description: Infrastructure as Code with Terraform
+  GCP:
+    icon: "🅖"
+    color: '#0F9D58'
+    display_name: Google Cloud Platform
+    description: Google Cloud training and certificates
+  Azure:
+    icon: "🅐"
+    color: '#0078D4'
+    display_name: Microsoft Azure
+    description: Azure platform training and certifications
+  Uncategorized:
+    icon: "❓"
+    color: '#9CA3AF'
+    display_name: Uncategorized
+    description: Certificates not yet categorized
