@@ -13,6 +13,13 @@
 #   3. Run the generation script
 
 certificates:
+- title: "Creating an Amazon Virtual Private Cloud (VPC) with AWS CloudFormation"
+  number: "54"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: "Creating an Amazon Virtual Private Cloud (VPC) with AWS CloudFormation.pdf"
+  completion_date: '2026-01-03'
+  verification_url: ''
 - title: AWS Solutions Architect Advanced - Designing a Multi-Account Architecture
   number: "53"
   provider: AWS Skill Builder
