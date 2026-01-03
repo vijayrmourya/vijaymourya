@@ -13,6 +13,13 @@
 #   3. Run the generation script
 
 certificates:
+- title: "AWS SimuLearn: Automation with CloudFormation"
+  number: "55"
+  provider: AWS Skill Builder
+  category: AWS
+  filename: "AWS SimuLearn: Automation with CloudFormation.pdf"
+  completion_date: '2026-01-03'
+  verification_url: ''
 - title: "Creating an Amazon Virtual Private Cloud (VPC) with AWS CloudFormation"
   number: "54"
   provider: AWS Skill Builder
